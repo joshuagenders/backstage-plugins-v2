@@ -13,10 +13,17 @@ kind: Component
 metadata:
   name: example-website
   description: An example website
+  annotations:
+    github.com/project-slug: joshuagenders/backstage-plugins-v2
+    backstage.io/source-location: url:https://github.com/joshuagenders/backstage-plugins-v2
   links:
     - url: http://example.com
       icon: link
       title: Example Website
+  tags:
+    - java
+  labels:
+    example.com/custom: custom_label_value
 spec:
   type: website
   lifecycle: experimental
